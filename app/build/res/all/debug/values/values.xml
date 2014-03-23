@@ -10,7 +10,7 @@
     <eat-comment />
 
     <string name="action_settings">Settings</string>
-    <string name="app_name">Crystal Ball</string>
+    <string name="crystal_ball">Crystal Ball</string>
     <string name="hello_world">Hello world!</string>
     <!-- From: file:/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/values/styles.xml -->
     <eat-comment />

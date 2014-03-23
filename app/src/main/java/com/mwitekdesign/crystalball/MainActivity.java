@@ -6,12 +6,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.Random;
-
 public class MainActivity extends Activity {
-
+    private CrystalBall mCrystalBall = new CrystalBall();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,25 +24,8 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                String[] answers = {
-                        "It is certain",
-                        "It is decidedly so",
-                        "All signs say yes",
-                        "The stars are not aligned",
-                        "My reply is no",
-                        "It is doubtful",
-                        "Better not tell you now",
-                        "Concentrate and ask again",
-                        "Unable to answer now"
-                };
-
-                String answer = "";
-
-                Random randomGenerator = new Random();
-                int randomNumber = randomGenerator.nextInt(answers.length);
-                answer = answers[randomNumber];
+                String answer = mCrystalBall.getAnAnswer();
                 answerLabel.setText(answer);
-
             }
         });
     }
@@ -54,6 +36,11 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    private void animateCrystalBall() {
+        ImageView crystalBallImage = (ImageView) findViewById(R.id.imageView1);
+        crystalBallImage.setImageResource(R.drawable.ball_animation);
     }
 
 }
