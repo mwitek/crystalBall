@@ -3,10 +3,10 @@ package com.mwitekdesign.crystalball;
 
 import android.app.Activity;
 import android.graphics.drawable.AnimationDrawable;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
     private ImageView mCrystalBallImage;
     private AnimationDrawable mCrystalBallAnimation;
     private Animation animFadein;
+    private MediaPlayer mCrystalBallSound;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 animateCrystalBall();
+                playCrystalBallSound();
                 getCrystalBallAnswer();
                 animateAnswer();
             }
@@ -46,6 +48,15 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    private void playCrystalBallSound() {
+        mCrystalBallSound = MediaPlayer.create(this, R.raw.crystal_ball);
+        if(mCrystalBallSound.isPlaying()) {
+            mCrystalBallSound.reset();
+        }else {
+            mCrystalBallSound.start();
+        }
     }
 
     private void animateCrystalBall() {
