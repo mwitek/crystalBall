@@ -79,4 +79,4 @@
         android:drawable="@drawable/ball01"
         android:duration="10"/>
 
-</animation-list><!-- From: file:/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball_animation.xml -->
+</animation-list><!-- From: file:/Users/ytech/open_source/crystalBall/app/src/main/res/drawable-mdpi/ball_animation.xml -->

@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:src="@drawable/ball01"
+        android:src="@drawable/ball_animation"
         android:scaleType="fitCenter" />
 
     <Button
@@ -69,4 +69,4 @@
     </LinearLayout>
 
 </RelativeLayout>
-<!-- From: file:/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/Users/ytech/open_source/crystalBall/app/src/main/res/layout/activity_main.xml -->

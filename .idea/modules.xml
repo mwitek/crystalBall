@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/crystalball-android.iml" filepath="$PROJECT_DIR$/crystalball-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crystalBall.iml" filepath="$PROJECT_DIR$/crystalBall.iml" />
     </modules>
   </component>
 </project>

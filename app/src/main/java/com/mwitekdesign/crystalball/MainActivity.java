@@ -2,6 +2,7 @@ package com.mwitekdesign.crystalball;
 
 
 import android.app.Activity;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -41,8 +42,13 @@ public class MainActivity extends Activity {
     }
 
     private void animateCrystalBall() {
+        //to work with the image  view item we need to reference it.
         ImageView crystalBallImage = (ImageView) findViewById(R.id.imageView1);
-        crystalBallImage.setImageResource(R.drawable.ball_animation);
-    }
+        AnimationDrawable crystalBallAnimation = (AnimationDrawable) crystalBallImage.getDrawable();
 
+        if (crystalBallAnimation.isRunning()) {
+            crystalBallAnimation.stop();
+        }
+        crystalBallAnimation.start();
+    }
 }

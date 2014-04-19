@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/assets" />
+        <source path="/Users/ytech/open_source/crystalBall/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/matthewwitek/open_source/crystalball-android/app/src/debug/assets" />
+        <source path="/Users/ytech/open_source/crystalBall/app/src/debug/assets" />
     </dataSet>
 
 </merger>
