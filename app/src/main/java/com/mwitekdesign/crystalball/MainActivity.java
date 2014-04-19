@@ -6,12 +6,20 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
     private CrystalBall mCrystalBall = new CrystalBall();
+    private TextView mAnswerLabel;
+    private Button mGetAnswerButton;
+    private ImageView mCrystalBallImage;
+    private AnimationDrawable mCrystalBallAnimation;
+    private Animation animFadein;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,16 +27,15 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // Declare our View variables
-        final TextView answerLabel = (TextView) findViewById(R.id.textView1);
-        Button getAnswerButton = (Button) findViewById(R.id.button1);
+        mAnswerLabel = (TextView) findViewById(R.id.textView1);
+        mGetAnswerButton = (Button) findViewById(R.id.button1);
 
-        getAnswerButton.setOnClickListener(new View.OnClickListener() {
-
+        mGetAnswerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String answer = mCrystalBall.getAnAnswer();
                 animateCrystalBall();
-                answerLabel.setText(answer);
+                getCrystalBallAnswer();
+                animateAnswer();
             }
         });
     }
@@ -43,12 +50,22 @@ public class MainActivity extends Activity {
 
     private void animateCrystalBall() {
         //to work with the image  view item we need to reference it.
-        ImageView crystalBallImage = (ImageView) findViewById(R.id.imageView1);
-        AnimationDrawable crystalBallAnimation = (AnimationDrawable) crystalBallImage.getDrawable();
+        mCrystalBallImage = (ImageView) findViewById(R.id.imageView1);
+        mCrystalBallAnimation = (AnimationDrawable) mCrystalBallImage.getDrawable();
 
-        if (crystalBallAnimation.isRunning()) {
-            crystalBallAnimation.stop();
+        if (mCrystalBallAnimation.isRunning()) {
+            mCrystalBallAnimation.stop();
         }
-        crystalBallAnimation.start();
+        mCrystalBallAnimation.start();
+    }
+
+    private void getCrystalBallAnswer() {
+        String answer = mCrystalBall.getAnAnswer();
+        mAnswerLabel.setText(answer);
+    }
+
+    private void animateAnswer() {
+        animFadein = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_in);
+        mAnswerLabel.startAnimation(animFadein);
     }
 }

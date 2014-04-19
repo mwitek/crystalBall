@@ -226,6 +226,11 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="fade_in"
+                path="/Users/ytech/open_source/crystalBall/app/src/main/res/anim/fade_in.xml"
+                qualifiers=""
+                type="anim" />
         </source>
         <source path="/Users/ytech/open_source/crystalBall/app/build/res/rs/debug" />
         <source path="/Users/ytech/open_source/crystalBall/app/build/res/generated/debug" />

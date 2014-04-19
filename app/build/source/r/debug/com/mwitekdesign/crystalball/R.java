@@ -8,11 +8,14 @@
 package com.mwitekdesign.crystalball;
 
 public final class R {
+    public static final class anim {
+        public static final int fade_in=0x7f040000;
+    }
     public static final class attr {
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int ball01=0x7f020000;
@@ -43,26 +46,26 @@ public final class R {
         public static final int ic_launcher=0x7f020019;
     }
     public static final class id {
-        public static final int action_settings=0x7f090005;
-        public static final int button1=0x7f090001;
-        public static final int imageView1=0x7f090000;
-        public static final int textView1=0x7f090003;
-        public static final int view1=0x7f090002;
-        public static final int view2=0x7f090004;
+        public static final int action_settings=0x7f0a0005;
+        public static final int button1=0x7f0a0001;
+        public static final int imageView1=0x7f0a0000;
+        public static final int textView1=0x7f0a0003;
+        public static final int view1=0x7f0a0002;
+        public static final int view2=0x7f0a0004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
     }
     public static final class raw {
-        public static final int crystal_ball=0x7f040000;
+        public static final int crystal_ball=0x7f050000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060000;
-        public static final int crystal_ball=0x7f060001;
-        public static final int hello_world=0x7f060002;
+        public static final int action_settings=0x7f070000;
+        public static final int crystal_ball=0x7f070001;
+        public static final int hello_world=0x7f070002;
     }
     public static final class style {
         /** 
@@ -73,9 +76,9 @@ public final class R {
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
     }
 }
