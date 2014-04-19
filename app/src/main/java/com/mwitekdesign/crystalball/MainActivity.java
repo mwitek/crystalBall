@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
     private CrystalBall mCrystalBall = new CrystalBall();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +26,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 String answer = mCrystalBall.getAnAnswer();
+                animateCrystalBall();
                 answerLabel.setText(answer);
             }
         });

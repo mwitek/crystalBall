@@ -101,6 +101,131 @@
                 path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball01.png"
                 qualifiers="mdpi"
                 type="drawable" />
+            <file
+                name="ball22"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball22.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball20"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball20.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball04"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball04.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball24"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball24.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball08"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball08.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball07"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball07.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball03"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball03.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball13"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball13.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball_animation"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball_animation.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball05"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball05.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="crystal_ball"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/raw/crystal_ball.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ball15"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball15.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball06"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball06.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball02"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball02.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball10"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball10.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball21"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball21.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball18"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball18.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball19"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball19.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball12"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball12.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball16"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball16.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball09"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball09.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball14"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball14.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball23"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball23.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball11"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball11.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ball17"
+                path="/Users/matthewwitek/open_source/crystalball-android/app/src/main/res/drawable-mdpi/ball17.png"
+                qualifiers="mdpi"
+                type="drawable" />
         </source>
         <source path="/Users/matthewwitek/open_source/crystalball-android/app/build/res/rs/debug" />
         <source path="/Users/matthewwitek/open_source/crystalball-android/app/build/res/generated/debug" />
