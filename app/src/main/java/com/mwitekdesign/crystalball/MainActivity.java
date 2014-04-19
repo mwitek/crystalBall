@@ -53,10 +53,18 @@ public class MainActivity extends Activity {
     private void playCrystalBallSound() {
         mCrystalBallSound = MediaPlayer.create(this, R.raw.crystal_ball);
         if(mCrystalBallSound.isPlaying()) {
+            mCrystalBallSound.stop();
             mCrystalBallSound.reset();
         }else {
             mCrystalBallSound.start();
         }
+
+        mCrystalBallSound.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.release();
+            }
+        });
     }
 
     private void animateCrystalBall() {
