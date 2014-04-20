@@ -231,6 +231,11 @@
                 path="/Users/ytech/open_source/crystalBall/app/src/main/res/anim/fade_in.xml"
                 qualifiers=""
                 type="anim" />
+            <file
+                name="ic_launcher"
+                path="/Users/ytech/open_source/crystalBall/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
         </source>
         <source path="/Users/ytech/open_source/crystalBall/app/build/res/rs/debug" />
         <source path="/Users/ytech/open_source/crystalBall/app/build/res/generated/debug" />
